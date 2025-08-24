@@ -16,3 +16,5 @@
 # Un-ignore the img directory and its contents
 !img/
 !img/*
+!icon/
+!icon/*
