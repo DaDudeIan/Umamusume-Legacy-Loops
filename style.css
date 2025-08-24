@@ -1,0 +1,10 @@
+body { font-family: sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; color: #333; }
+#container { max-width: 960px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h1 { text-align: center; }
+#search-box { width: 100%; padding: 10px; margin-bottom: 20px; font-size: 16px; border-radius: 4px; border: 1px solid #ddd; }
+.combo-container { border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px; overflow: hidden; }
+.combo-summary { background-color: #f9f9f9; padding: 10px; font-weight: bold; cursor: pointer; }
+.combo-details { display: none; padding: 10px; border-top: 1px solid #ddd; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px; text-align: center; border: 1px solid #ddd; }
+img { max-width: 100px; height: auto; }
