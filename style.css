@@ -8,3 +8,21 @@ h1 { text-align: center; }
 table { width: 100%; border-collapse: collapse; }
 th, td { padding: 8px; text-align: center; border: 1px solid #ddd; }
 img { max-width: 100px; height: auto; }
+
+.readme-details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.readme-details summary {
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.readme-content {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
