@@ -43,7 +43,11 @@ function createTable(item) {
     container.appendChild(details);
 
     summary.addEventListener('click', () => {
-        details.style.display = details.style.display === 'none' ? 'block' : 'none';
+        if (details.style.display === 'block') {
+            details.style.display = 'none';
+        } else {
+            details.style.display = 'block';
+        }
     });
 
     return container;
